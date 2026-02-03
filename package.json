@@ -1,0 +1,41 @@
+{
+  "name": "currency_input",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "description": "A configurable currency input component built with React and Tailwind CSS",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "currency",
+    "input",
+    "tailwind",
+    "naira"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "packages": {},
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "tailwindcss": "^3.4.19",
+    "vite": "^7.3.1"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/4core-Integrated-Services/currency_input.git"
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.18"
+  }
+}
